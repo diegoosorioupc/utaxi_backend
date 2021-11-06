@@ -31,7 +31,7 @@ namespace UTaxi.API
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseInMemoryDatabase("utaxi-api-in-memory")
+                options.UseInMemoryDatabase("utaxi-api-in-memory");
             });
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "UTaxi.API", Version = "v1"}); });
         }
