@@ -14,5 +14,6 @@ namespace UTaxi.API.Domain.Models
         
         //Relationships
         public IList<Taxi> Taxis { get; set; } = new List<Taxi>();
+        public IList<Route> Routes { get; set; } = new List<Route>();
     }
 }

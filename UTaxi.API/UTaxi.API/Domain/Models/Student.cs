@@ -1,4 +1,6 @@
-﻿namespace UTaxi.API.Domain.Models
+﻿using System.Collections.Generic;
+
+namespace UTaxi.API.Domain.Models
 {
     public class Student
     {
@@ -10,6 +12,6 @@
         public string UniversityCard { get; set; }
         
         //Relationships
-        public Route Route { get; set; }
+        public IList<Route> Routes { get; set; } = new List<Route>();
     }
 }
