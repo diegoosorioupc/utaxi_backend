@@ -10,10 +10,20 @@
   <component name="ChangeListManager">
     <list default="true" id="79d77bba-79f3-43b1-b72d-e0b1c8b7d9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UTaxi.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UTaxi.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Driver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Driver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Route.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Route.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/RouteList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Controllers/DetailsRouteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Controllers/DetailsRouteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Controllers/DriverController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Controllers/DriverController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Controllers/PaymentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Controllers/PaymentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Controllers/RouteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Controllers/RouteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Controllers/StudentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Controllers/StudentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Controllers/TaxiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Controllers/TaxiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/UTaxi.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/UTaxi.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/UTaxi.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/UTaxi.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636184596903</updated>
-      <workItem from="1636184609931" duration="2787000" />
+      <workItem from="1636184609931" duration="4973000" />
     </task>
     <servers />
   </component>
