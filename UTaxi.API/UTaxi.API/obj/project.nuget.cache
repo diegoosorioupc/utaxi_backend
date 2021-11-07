@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "k6rEtzL12ALT5A44x30cjjDQa6G0yksugoVyuoJK9uhQHBDunp+jGxWpB4GpXXhOeqLJajALRGl+oEzfZaPWSA==",
+  "dgSpecHash": "TaNH3ocbkEQZ/g1494EjnswjJt1X8AXBHAigqI3u1+kn19ILGlr/cRcW1Gd+wGch/H6yf+VetrPKcxVq+tX3jA==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\AplicacionesWeb\\utaxi_backend\\UTaxi.API\\UTaxi.API\\UTaxi.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Enzo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Enzo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
@@ -74,7 +76,7 @@
     "C:\\Users\\Enzo\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Enzo\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Enzo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\Enzo\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

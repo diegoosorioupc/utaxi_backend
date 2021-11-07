@@ -41,6 +41,8 @@ namespace UTaxi.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "UTaxi.API", Version = "v1"});
             });
+            
+            //AddScoped
             services.AddScoped<IDriverRepository, DriverRepository>();
             services.AddScoped<IDriverService, DriverService>();
             
@@ -59,6 +61,8 @@ namespace UTaxi.API
             services.AddScoped<IDetailsRouteRepository, DetailsRouteRepository>();
             services.AddScoped<IDetailsRouteService, DetailsRouteService>();
 
+            //AutoMapper
+            services.AddAutoMapper(typeof(Startup));
 
         }
 
