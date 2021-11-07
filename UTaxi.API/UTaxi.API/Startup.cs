@@ -49,7 +49,7 @@ namespace UTaxi.API
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<IStudentService, StudentService>();
 
-            services.AddScoped<ITaxiRepository, ITaxiRepository>();
+            services.AddScoped<ITaxiRepository, TaxiRepository>();
             services.AddScoped<ITaxiService, TaxiService>();
 
             services.AddScoped<IRouteRepository, RouteRepository>();

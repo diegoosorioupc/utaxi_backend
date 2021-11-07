@@ -31,8 +31,9 @@ D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\sta
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.xml
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\scopedcss\bundle\UTaxi.API.styles.css
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.RazorTargetAssemblyInfo.cache
-D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CopyComplete
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.dll
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\ref\UTaxi.API.dll
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.pdb
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.genruntimeconfig.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
