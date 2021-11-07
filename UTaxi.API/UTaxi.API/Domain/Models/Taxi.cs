@@ -2,6 +2,7 @@
 {
     public class Taxi
     {
+        public int Id { get; set; }
         public string Model { get; set; }
         public int RegistrationNumber { get; set; }
         public string VehicleStatus { get; set; }

@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using UTaxi.API.Domain.Models;
 using UTaxi.API.Domain.Services;
 
 namespace UTaxi.API.Controllers
@@ -11,6 +14,11 @@ namespace UTaxi.API.Controllers
         public PaymentController(IPaymentService paymentService)
         {
             _paymentService = paymentService;
+        }
+        public async Task<IEnumerable<Payment>> GetAllAsync()
+        {
+            var payments = await _paymentService.ListAsync();
+            return payments;
         }
     }
 }

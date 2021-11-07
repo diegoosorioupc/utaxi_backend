@@ -12,6 +12,6 @@ namespace UTaxi.API.Domain.Models
         public string UniversityCard { get; set; }
         
         //Relationships
-        public IList<Route> Routes { get; set; } = new List<Route>();
+        public IList<StudentRoute> StudentRoutes { get; set; } = new List<StudentRoute>();
     }
 }

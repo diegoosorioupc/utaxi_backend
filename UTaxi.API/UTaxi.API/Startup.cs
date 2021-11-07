@@ -12,7 +12,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using UTaxi.API.Domain.Repository;
+using UTaxi.API.Domain.Services;
 using UTaxi.API.Persistence.Contexts;
+using UTaxi.API.Persistence.Repositories;
+using UTaxi.API.Services;
 
 namespace UTaxi.API
 {
@@ -33,7 +37,29 @@ namespace UTaxi.API
             {
                 options.UseInMemoryDatabase("utaxi-api-in-memory");
             });
-            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "UTaxi.API", Version = "v1"}); });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "UTaxi.API", Version = "v1"});
+            });
+            services.AddScoped<IDriverRepository, DriverRepository>();
+            services.AddScoped<IDriverService, DriverService>();
+            
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<IStudentService, StudentService>();
+
+            services.AddScoped<ITaxiRepository, ITaxiRepository>();
+            services.AddScoped<ITaxiService, TaxiService>();
+
+            services.AddScoped<IRouteRepository, RouteRepository>();
+            services.AddScoped<IRouteService, RouteService>();
+
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            services.AddScoped<IPaymentService, PaymentService>();
+
+            services.AddScoped<IDetailsRouteRepository, DetailsRouteRepository>();
+            services.AddScoped<IDetailsRouteService, DetailsRouteService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
