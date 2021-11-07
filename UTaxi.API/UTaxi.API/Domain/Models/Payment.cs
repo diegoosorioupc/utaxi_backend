@@ -9,6 +9,6 @@
         public bool CheckPayment { get; set; }
         
         //Relationships
-        public Route Route { get; set; }
+        public DetailsRoute DetailsRoute { get; set; }
     }
 }

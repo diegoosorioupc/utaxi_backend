@@ -9,12 +9,11 @@ namespace UTaxi.API.Domain.Models
         //Relationships 
         public Driver Driver { get; set; }
         public IList<StudentRoute> StudentRoutes { get; set; } = new List<StudentRoute>();
-        public Payment Payment { get; set; }
+       
         public DetailsRoute DetailsRoute { get; set; }
 
         //ID Relationships
         public int DriverId { get; set; }
-        public int PaymentId { get; set; }
         public int DetailsRouteId { get; set; }
     }
 }

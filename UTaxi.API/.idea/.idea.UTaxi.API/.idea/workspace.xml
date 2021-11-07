@@ -10,18 +10,12 @@
   <component name="ChangeListManager">
     <list default="true" id="79d77bba-79f3-43b1-b72d-e0b1c8b7d9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UTaxi.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UTaxi.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/ref/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/ref/UTaxi.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/ref/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/ref/UTaxi.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/DetailsRoute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/DetailsRoute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Payment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Payment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Route.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Route.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/StudentRoute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/StudentRoute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Taxi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/Taxi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Persistence/Contexts/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Persistence/Contexts/AppDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <updated>1636184596903</updated>
       <workItem from="1636184609931" duration="6683000" />
       <workItem from="1636243993935" duration="11669000" />
-      <workItem from="1636307349087" duration="669000" />
+      <workItem from="1636307349087" duration="2211000" />
     </task>
     <servers />
   </component>

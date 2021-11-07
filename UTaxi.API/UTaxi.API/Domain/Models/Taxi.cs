@@ -10,5 +10,6 @@
         
         //Relationships
         public Driver Driver { get; set; }
+        public int DriverId { get; set; }
     }
 }

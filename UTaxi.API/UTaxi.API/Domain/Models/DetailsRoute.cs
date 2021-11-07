@@ -12,5 +12,7 @@
         
         //Relationships
         public Route Route { get; set; }
+        public Payment Payment { get; set; }
+        public int PaymentId { get; set; }
     }
 }

@@ -74,10 +74,10 @@ namespace UTaxi.API.Persistence.Contexts
                 .WithOne(p =>p.Route)
                 .HasForeignKey(p => p.RouteId);
             
-            builder.Entity<Route>()
-                .HasMany(p => p.StudentRoutes)
-                .WithOne(p =>p.Route)
-                .HasForeignKey(p => p.RouteId);
+            builder.Entity<Driver>()
+                .HasMany(p => p.Taxis)
+                .WithOne(p =>p.Driver)
+                .HasForeignKey(p => p.DriverId);
             
             builder.Entity<DetailsRoute>()
                 .HasOne(p => p.Route)
@@ -85,9 +85,9 @@ namespace UTaxi.API.Persistence.Contexts
                 .HasForeignKey<Route>(p => p.DetailsRouteId);
             
             builder.Entity<Payment>()
-                .HasOne(p => p.Route)
+                .HasOne(p => p.DetailsRoute)
                 .WithOne(p =>p.Payment)
-                .HasForeignKey<Route>(p => p.PaymentId);
+                .HasForeignKey<DetailsRoute>(p => p.PaymentId);
         }
     }
 }
