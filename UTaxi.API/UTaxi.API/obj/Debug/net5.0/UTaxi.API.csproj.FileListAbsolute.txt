@@ -37,3 +37,43 @@ D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTa
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.genruntimeconfig.cache
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.dll
 D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\appsettings.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.exe
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.deps.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.runtimeconfig.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.runtimeconfig.dev.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\ref\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.pdb
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.AssemblyReference.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.AssemblyInfoInputs.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.AssemblyInfo.cs
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CoreCompileInputs.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.Manifest.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.xml
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\scopedcss\bundle\UTaxi.API.styles.css
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.RazorTargetAssemblyInfo.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CopyComplete
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\ref\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.pdb
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.genruntimeconfig.cache

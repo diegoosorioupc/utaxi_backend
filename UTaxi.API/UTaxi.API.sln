@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTaxi.API", "UTaxi.API\UTaxi.API.csproj", "{95174A8E-FC02-4307-8F84-4844E1EFCA0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTaxi.API.Tests", "UTaxi.API.Tests\UTaxi.API.Tests.csproj", "{A20AB6CA-66F2-4849-81ED-68A768ABB4B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{95174A8E-FC02-4307-8F84-4844E1EFCA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95174A8E-FC02-4307-8F84-4844E1EFCA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95174A8E-FC02-4307-8F84-4844E1EFCA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20AB6CA-66F2-4849-81ED-68A768ABB4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20AB6CA-66F2-4849-81ED-68A768ABB4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20AB6CA-66F2-4849-81ED-68A768ABB4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20AB6CA-66F2-4849-81ED-68A768ABB4B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
