@@ -19,7 +19,8 @@ namespace UTaxi.API.Controllers
             _detailsRouteService = detailsRouteService;
             _mapper = mapper;
         }
-
+        
+        [HttpGet]
         public async Task<IEnumerable<DetailsRouteResource>> GetAllAsync()
         {
             var details = await _detailsRouteService.ListAsync();

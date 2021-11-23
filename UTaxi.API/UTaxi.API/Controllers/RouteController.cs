@@ -18,6 +18,8 @@ namespace UTaxi.API.Controllers
             _routeService = routerService;
             _mapper = mapper;
         }
+        
+        [HttpGet]
         public async Task<IEnumerable<RouteResource>> GetAllAsync()
         {
             var routes = await _routeService.ListAsync();

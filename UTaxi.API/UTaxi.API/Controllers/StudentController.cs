@@ -18,6 +18,8 @@ namespace UTaxi.API.Controllers
             _studentService = studentService;
             _mapper = mapper;
         }
+        
+        [HttpGet]
         public async Task<IEnumerable<StudentResource>> GetAllAsync()
         {
             var students = await _studentService.ListAsync();

@@ -19,6 +19,8 @@ namespace UTaxi.API.Controllers
             _driverService = driverService;
             _mapper = mapper;
         }
+        
+        [HttpGet]
         public async Task<IEnumerable<DriverResource>> GetAllAsync()
         {
             var drivers = await _driverService.ListAsync();

@@ -18,6 +18,8 @@ namespace UTaxi.API.Controllers
             _paymentService = paymentService;
             _mapper = mapper;
         }
+        
+        [HttpGet]
         public async Task<IEnumerable<PaymentResource>> GetAllAsync()
         {
             var payments = await _paymentService.ListAsync();
