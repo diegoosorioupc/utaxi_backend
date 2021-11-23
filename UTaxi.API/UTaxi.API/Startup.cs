@@ -60,6 +60,9 @@ namespace UTaxi.API
 
             services.AddScoped<IDetailsRouteRepository, DetailsRouteRepository>();
             services.AddScoped<IDetailsRouteService, DetailsRouteService>();
+            
+            services.AddScoped<IStudentRouteRepository, StudentRouteRepository>();
+            services.AddScoped<IStudentRouteService, StudentRouteService>();
 
             //AutoMapper
             services.AddAutoMapper(typeof(Startup));

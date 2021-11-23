@@ -13,6 +13,8 @@ namespace UTaxi.API.Persistence.Contexts
         public DbSet<Taxi> Taxis { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Route> Routes { get; set; }
+        
+        public DbSet<StudentRoute> StudentRoutes { get; set; }
 
         public AppDbContext(DbContextOptions options) : base(options)
         {

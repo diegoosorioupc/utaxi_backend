@@ -10,33 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="79d77bba-79f3-43b1-b72d-e0b1c8b7d9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UTaxi.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UTaxi.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/DriverServiceTests.feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/DriverServiceTests.feature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/bin/Debug/net5.0/CoverletSourceRootsMapping" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/bin/Debug/net5.0/CoverletSourceRootsMapping" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/Debug/net5.0/UTaxi.API.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/UTaxi.API.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/UTaxi.API.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/UTaxi.API.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/UTaxi.API.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API.Tests/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Models/StudentRoute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Models/StudentRoute.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Persistence/Contexts/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Persistence/Contexts/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Resources/DriverResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Resources/DriverResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Resources/SaveDriverResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Resources/SaveDriverResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Resources/SaveStudentResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Resources/SaveStudentResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/Resources/StudentResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Resources/StudentResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/UTaxi.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/UTaxi.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/UTaxi.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/UTaxi.API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +85,7 @@
       <workItem from="1636307349087" duration="2211000" />
       <workItem from="1637682888058" duration="1222000" />
       <workItem from="1637684177830" duration="7884000" />
-      <workItem from="1637700718541" duration="1391000" />
+      <workItem from="1637700718541" duration="3155000" />
     </task>
     <servers />
   </component>
