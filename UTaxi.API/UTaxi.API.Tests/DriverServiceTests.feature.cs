@@ -126,11 +126,15 @@ this.FeatureBackground();
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "Name",
                             "LicensedNumber",
+                            "Birth",
+                            "Phone",
                             "UniversityName",
                             "UniversityCard"});
                 table1.AddRow(new string[] {
                             "Diaz Montoya Maria Isabel",
                             "25478632",
+                            "December 2nd, 1985",
+                            "987586123",
                             "U de Lima",
                             "U214536874"});
 #line 11
@@ -143,12 +147,16 @@ this.FeatureBackground();
                             "Id",
                             "Name",
                             "LicensedNumber",
+                            "Birth",
+                            "Phone",
                             "UniversityName",
                             "UniversityCard"});
                 table2.AddRow(new string[] {
                             "2",
                             "Diaz Montoya Maria Isabel",
                             "25478632",
+                            "December 2nd, 1985",
+                            "987586123",
                             "U de Lima",
                             "U214536874"});
 #line 15

@@ -27,6 +27,8 @@ namespace UTaxi.API.Persistence.Contexts
             builder.Entity<Driver>().HasKey(p => p.Id);
             builder.Entity<Driver>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Entity<Driver>().Property(p => p.Name).IsRequired().HasMaxLength(30);
+            builder.Entity<Driver>().Property(p => p.Birth).IsRequired();
+            builder.Entity<Driver>().Property(p => p.Phone).IsRequired();
             builder.Entity<Driver>().Property(p => p.LicensedNumber).IsRequired();
             builder.Entity<Driver>().Property(p => p.UniversityName).IsRequired();
             builder.Entity<Driver>().Property(p => p.UniversityCard).IsRequired();
@@ -35,16 +37,25 @@ namespace UTaxi.API.Persistence.Contexts
             builder.Entity<Student>().HasKey(p => p.Id);
             builder.Entity<Student>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Entity<Student>().Property(p => p.Name).IsRequired().HasMaxLength(30);
+            builder.Entity<Student>().Property(p => p.Birth).IsRequired();
+            builder.Entity<Student>().Property(p => p.Phone).IsRequired();
             builder.Entity<Student>().Property(p => p.UniversityName).IsRequired();
             builder.Entity<Student>().Property(p => p.UniversityCard).IsRequired();
             
             builder.Entity<Route>().ToTable("Routes");
             builder.Entity<Route>().HasKey(p => p.Id);
             builder.Entity<Route>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Route>().Property(p => p.Status).IsRequired();
             
             builder.Entity<DetailsRoute>().ToTable("DetailsRoutes");
             builder.Entity<DetailsRoute>().HasKey(p => p.Id);
             builder.Entity<DetailsRoute>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<DetailsRoute>().Property(p => p.Description).IsRequired();
+            builder.Entity<DetailsRoute>().Property(p => p.Date).IsRequired();
+            builder.Entity<DetailsRoute>().Property(p => p.RouteCode).IsRequired();
+            builder.Entity<DetailsRoute>().Property(p => p.RouteStart).IsRequired();
+            builder.Entity<DetailsRoute>().Property(p => p.RouteEnd).IsRequired();
+            builder.Entity<DetailsRoute>().Property(p => p.Price).IsRequired();
             
             builder.Entity<Taxi>().ToTable("Taxis");
             builder.Entity<Taxi>().HasKey(p => p.Id);
@@ -52,10 +63,18 @@ namespace UTaxi.API.Persistence.Contexts
             builder.Entity<Taxi>().Property(p => p.RegistrationNumber).IsRequired();
             builder.Entity<Taxi>().Property(p => p.Capacity).IsRequired();
             builder.Entity<Taxi>().Property(p => p.VehicleStatus).IsRequired();
+            builder.Entity<Taxi>().Property(p => p.Model).IsRequired();
+
+            builder.Entity<StudentRoute>().ToTable("StudentsRoutes");
+            builder.Entity<StudentRoute>().HasKey(p => p.Id);
             
             builder.Entity<Payment>().ToTable("Payments");
             builder.Entity<Payment>().HasKey(p => p.Id);
             builder.Entity<Payment>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Payment>().Property(p => p.Mont).IsRequired();
+            builder.Entity<Payment>().Property(p => p.Discount).IsRequired();
+            builder.Entity<Payment>().Property(p => p.CheckPayment).IsRequired();
+            builder.Entity<Payment>().Property(p => p.TypePayment).IsRequired();
             
             
             //Relationships

@@ -8452,19 +8452,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gerardo Caldas\\.nuget\\packages\\": {}
+    "C:\\Users\\Enzo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gerardo Caldas\\Desktop\\UTaxi.API\\UTaxi.API.Tests\\UTaxi.API.Tests.csproj",
+      "projectUniqueName": "D:\\GitHub\\AplicacionesWeb\\utaxi_backend\\UTaxi.API\\UTaxi.API.Tests\\UTaxi.API.Tests.csproj",
       "projectName": "UTaxi.API.Tests",
-      "projectPath": "C:\\Users\\Gerardo Caldas\\Desktop\\UTaxi.API\\UTaxi.API.Tests\\UTaxi.API.Tests.csproj",
-      "packagesPath": "C:\\Users\\Gerardo Caldas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gerardo Caldas\\Desktop\\UTaxi.API\\UTaxi.API.Tests\\obj\\",
+      "projectPath": "D:\\GitHub\\AplicacionesWeb\\utaxi_backend\\UTaxi.API\\UTaxi.API.Tests\\UTaxi.API.Tests.csproj",
+      "packagesPath": "C:\\Users\\Enzo\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\AplicacionesWeb\\utaxi_backend\\UTaxi.API\\UTaxi.API.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gerardo Caldas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Enzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8478,8 +8478,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Gerardo Caldas\\Desktop\\UTaxi.API\\UTaxi.API\\UTaxi.API.csproj": {
-              "projectPath": "C:\\Users\\Gerardo Caldas\\Desktop\\UTaxi.API\\UTaxi.API\\UTaxi.API.csproj"
+            "D:\\GitHub\\AplicacionesWeb\\utaxi_backend\\UTaxi.API\\UTaxi.API\\UTaxi.API.csproj": {
+              "projectPath": "D:\\GitHub\\AplicacionesWeb\\utaxi_backend\\UTaxi.API\\UTaxi.API\\UTaxi.API.csproj"
             }
           }
         }

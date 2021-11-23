@@ -9,6 +9,12 @@ namespace UTaxi.API.Resources
         public string Name { get; set; }
         
         [Required]
+        public string Birth { get; set; }
+        
+        [Required]
+        public string Phone { get; set; }
+        
+        [Required]
         public string UniversityName { get; set; }
         
         [Required]
