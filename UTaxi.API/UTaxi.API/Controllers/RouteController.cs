@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using UTaxi.API.Domain.Models;
 using UTaxi.API.Domain.Services;
+using UTaxi.API.Resources;
 
 namespace UTaxi.API.Controllers
 {
@@ -10,15 +12,17 @@ namespace UTaxi.API.Controllers
     public class RouteController : ControllerBase
     {
         private readonly IRouteService _routeService;
-
-        public RouteController(IRouteService routerService)
+        private readonly IMapper _mapper;
+        public RouteController(IRouteService routerService, IMapper mapper)
         {
             _routeService = routerService;
+            _mapper = mapper;
         }
-        public async Task<IEnumerable<Route>> GetAllAsync()
+        public async Task<IEnumerable<RouteResource>> GetAllAsync()
         {
             var routes = await _routeService.ListAsync();
-            return routes;
+            var resources = _mapper.Map<IEnumerable<Route>, IEnumerable<RouteResource>>(routes);
+            return resources;
         }
     }
 }

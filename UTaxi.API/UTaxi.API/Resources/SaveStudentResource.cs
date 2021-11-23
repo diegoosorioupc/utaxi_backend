@@ -4,9 +4,9 @@ namespace UTaxi.API.Resources
 {
     public class SaveStudentResource
     {
-        [Required]
-        [MaxLength(50)]
-        public string Name { get; set; }
+        [Required] 
+        [MaxLength(50)] 
+        public string Name;
         
         [Required]
         public string Birth { get; set; }

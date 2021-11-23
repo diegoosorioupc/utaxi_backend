@@ -9,6 +9,12 @@ namespace UTaxi.API.Mapping
         public ModelToProfile()
         {
             CreateMap<Driver, DriverResource>();
+            CreateMap<Student, StudentResource>();
+            CreateMap<Route,RouteResource>();
+            CreateMap<Taxi,TaxiResource>();
+            CreateMap<Payment,PaymentResource>();
+            CreateMap<DetailsRoute,DetailsRouteResource>();
+            CreateMap<StudentRoute,StudentRouteResource>();
         }
     }
 }

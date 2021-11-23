@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using UTaxi.API.Domain.Models;
 using UTaxi.API.Domain.Services;
+using UTaxi.API.Resources;
 
 namespace UTaxi.API.Controllers
 {
@@ -13,14 +14,16 @@ namespace UTaxi.API.Controllers
         private readonly IDriverService _driverService;
         private readonly IMapper _mapper;
 
-        public DriverController(IDriverService driverService)
+        public DriverController(IDriverService driverService, IMapper mapper)
         {
             _driverService = driverService;
+            _mapper = mapper;
         }
-        public async Task<IEnumerable<Driver>> GetAllAsync()
+        public async Task<IEnumerable<DriverResource>> GetAllAsync()
         {
-            var driver = await _driverService.ListAsync();
-            return driver;
+            var drivers = await _driverService.ListAsync();
+            var resources = _mapper.Map<IEnumerable<Driver>, IEnumerable<DriverResource>>(drivers);
+            return resources;
         }
     }
 }
