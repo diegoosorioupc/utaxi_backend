@@ -27,4 +27,9 @@
       <ProjectReference Include="..\UTaxi.API\UTaxi.API.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <SpecFlowFeatureFiles Remove="PaymentService.feature" />
+      <SpecFlowFeatureFiles Remove="DetailsRouteTests.feature" />
+    </ItemGroup>
+
 </Project>

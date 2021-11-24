@@ -414,3 +414,15 @@ C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\obj\Debug\net5.0\UTaxi
 C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\obj\Debug\net5.0\ref\UTaxi.API.Tests.dll
 C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\obj\Debug\net5.0\UTaxi.API.Tests.pdb
 C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\obj\Debug\net5.0\UTaxi.API.Tests.genruntimeconfig.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API.Tests\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
