@@ -39,5 +39,26 @@ namespace UTaxi.API.Controllers
             var paymentResource = _mapper.Map<Payment, PaymentResource>(result.Payment);
             return Ok(paymentResource);
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync(int id,[FromBody] SavePaymentResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessage());
+            var payment = _mapper.Map<SavePaymentResource, Payment>(resource);
+            var result = await _paymentService.UpdateAsync(id,payment);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var paymentResource = _mapper.Map<Payment, PaymentResource>(result.Payment);
+            return Ok(paymentResource);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            var result = await _paymentService.DeleteAsync(id);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var paymentResource = _mapper.Map<Payment, PaymentResource>(result.Payment);
+            return Ok(paymentResource);
+        }
     }
 }

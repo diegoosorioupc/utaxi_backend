@@ -9,5 +9,7 @@ namespace UTaxi.API.Domain.Services
     {
         Task<IEnumerable<Taxi>> ListAsync();
         Task<SaveTaxiResponse> SaveAsync(Taxi taxi);
+        Task<SaveTaxiResponse> UpdateAsync(int id,Taxi taxi);
+        Task<TaxiResponse> DeleteAsync(int id);
     }
 }

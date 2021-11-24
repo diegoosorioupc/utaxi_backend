@@ -40,5 +40,26 @@ namespace UTaxi.API.Controllers
             var studentResource = _mapper.Map<Student, StudentResource>(result.Student);
             return Ok(studentResource);
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync(int id,[FromBody] SaveStudentResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessage());
+            var student = _mapper.Map<SaveStudentResource, Student>(resource);
+            var result = await _studentService.UpdateAsync(id,student);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var studentResource = _mapper.Map<Student, StudentResource>(result.Student);
+            return Ok(studentResource);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            var result = await _studentService.DeleteAsync(id);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var studentResource = _mapper.Map<Student, StudentResource>(result.Student);
+            return Ok(studentResource);
+        }
     }
 }

@@ -22,5 +22,20 @@ namespace UTaxi.API.Persistence.Repositories
         {
             await _context.Payments.AddAsync(payment);
         }
+
+        public async Task<Payment> FindByIdAsync(int id)
+        {
+            return await _context.Payments.FindAsync(id);
+        }
+
+        public void Update(Payment payment)
+        {
+            _context.Payments.Update(payment);
+        }
+
+        public void Remove(Payment payment)
+        {
+            _context.Payments.Remove(payment);
+        }
     }
 }

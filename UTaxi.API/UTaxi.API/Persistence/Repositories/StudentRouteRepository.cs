@@ -22,5 +22,20 @@ namespace UTaxi.API.Persistence.Repositories
         {
             await _context.StudentRoutes.AddAsync(studentRoute);
         }
+
+        public async Task<StudentRoute> FindByIdAsync(int id)
+        {
+            return await _context.StudentRoutes.FindAsync(id);
+        }
+
+        public void Update(StudentRoute studentRoute)
+        {
+            _context.StudentRoutes.Update(studentRoute);
+        }
+
+        public void Remove(StudentRoute studentRoute)
+        {
+            _context.StudentRoutes.Remove(studentRoute);
+        }
     }
 }

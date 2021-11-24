@@ -1,6 +1,7 @@
 ﻿using System.Collections.Immutable;
 using Microsoft.EntityFrameworkCore;
 using UTaxi.API.Domain.Models;
+using UTaxi.API.Extensions;
 
 namespace UTaxi.API.Persistence.Contexts
 
@@ -109,6 +110,8 @@ namespace UTaxi.API.Persistence.Contexts
                 .HasOne(p => p.DetailsRoute)
                 .WithOne(p =>p.Payment)
                 .HasForeignKey<DetailsRoute>(p => p.PaymentId);
+            
+            builder.UseSnakeCaseNamingConvention();
         }
     }
 }

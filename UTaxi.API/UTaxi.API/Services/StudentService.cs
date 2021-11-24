@@ -36,5 +36,48 @@ namespace UTaxi.API.Services
                 return new SaveStudentResponse($"An error occurred while saving the student: {e.Message}");
             }
         }
+
+        public async Task<SaveStudentResponse> UpdateAsync(int id, Student student)
+        {
+            var existingStudent = await _studentRepository.FindByIdAsync(id);
+
+            if (existingStudent == null)
+            {
+                return new SaveStudentResponse("Student not found");
+            }
+
+            existingStudent.Name = student.Name;
+            try
+            {
+                _studentRepository.Update(existingStudent);
+
+                return new SaveStudentResponse(existingStudent);
+            }
+            catch (Exception e)
+            {
+                return new SaveStudentResponse($"An error occurred while updating the student: {e.Message}");
+            }
+        }
+
+        public async Task<StudentResponse> DeleteAsync(int id)
+        {
+            var existingStudent = await _studentRepository.FindByIdAsync(id);
+
+            if (existingStudent == null)
+            {
+                return new StudentResponse("Student not found");
+            }
+            
+            try
+            {
+                _studentRepository.Remove(existingStudent);
+
+                return new StudentResponse(existingStudent);
+            }
+            catch (Exception e)
+            {
+                return new StudentResponse($"An error occurred while deleting the student: {e.Message}");
+            }
+        }
     }
 }

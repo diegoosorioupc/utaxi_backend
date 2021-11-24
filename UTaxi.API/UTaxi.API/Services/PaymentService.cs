@@ -35,5 +35,48 @@ namespace UTaxi.API.Services
                 return new SavePaymentResponse($"An error occurred while saving the payment: {e.Message}");
             }
         }
+
+        public async Task<SavePaymentResponse> UpdateAsync(int id, Payment payment)
+        {
+            var existingPayment = await _paymentRepository.FindByIdAsync(id);
+
+            if (existingPayment == null)
+            {
+                return new SavePaymentResponse("Payment not found");
+            }
+
+            existingPayment.Id = payment.Id;
+            try
+            {
+                _paymentRepository.Update(existingPayment);
+
+                return new SavePaymentResponse(existingPayment);
+            }
+            catch (Exception e)
+            {
+                return new SavePaymentResponse($"An error occurred while updating the payment: {e.Message}");
+            }
+        }
+
+        public async Task<PaymentResponse> DeleteAsync(int id)
+        {
+            var existingPayment = await _paymentRepository.FindByIdAsync(id);
+
+            if (existingPayment == null)
+            {
+                return new PaymentResponse("Payment not found");
+            }
+            
+            try
+            {
+                _paymentRepository.Remove(existingPayment);
+
+                return new PaymentResponse(existingPayment);
+            }
+            catch (Exception e)
+            {
+                return new PaymentResponse($"An error occurred while deleting the payment: {e.Message}");
+            }
+        }
     }
 }

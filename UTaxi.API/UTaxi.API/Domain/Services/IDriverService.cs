@@ -9,5 +9,7 @@ namespace UTaxi.API.Domain.Services
     {
         Task<IEnumerable<Driver>> ListAsync();
         Task<SaveDriverResponse> SaveAsync(Driver driver);
+        Task<SaveDriverResponse> UpdateAsync(int id, Driver driver);
+        Task<DriverResponse> DeleteAsync(int id);
     }
 }

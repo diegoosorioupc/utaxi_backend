@@ -31,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Services/IStudentRouteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Services/IStudentRouteService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Services/IStudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Services/IStudentService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Domain/Services/ITaxiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Domain/Services/ITaxiService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTaxi.API/Persistence/Contexts/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Persistence/Contexts/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Persistence/Repositories/DetailsRouteRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Persistence/Repositories/DetailsRouteRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Persistence/Repositories/DriverRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Persistence/Repositories/DriverRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Persistence/Repositories/PaymentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Persistence/Repositories/PaymentRepository.cs" afterDir="false" />
@@ -47,13 +48,9 @@
       <change beforePath="$PROJECT_DIR$/UTaxi.API/Services/TaxiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/Services/TaxiService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/UTaxi.API.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/ref/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/bin/Debug/net5.0/ref/UTaxi.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/UTaxi.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/ref/UTaxi.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UTaxi.API/obj/Debug/net5.0/ref/UTaxi.API.dll" afterDir="false" />
     </list>
@@ -129,7 +126,7 @@
       <workItem from="1636307349087" duration="2211000" />
       <workItem from="1637682888058" duration="1222000" />
       <workItem from="1637684177830" duration="7884000" />
-      <workItem from="1637700718541" duration="11045000" />
+      <workItem from="1637700718541" duration="21890000" />
     </task>
     <servers />
   </component>

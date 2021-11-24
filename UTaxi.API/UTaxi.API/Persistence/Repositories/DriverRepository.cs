@@ -22,5 +22,20 @@ namespace UTaxi.API.Persistence.Repositories
         {
             await _context.Drivers.AddAsync(driver);
         }
+
+        public async Task<Driver> FindByIdAsync(int id)
+        {
+            return await _context.Drivers.FindAsync(id);
+        }
+
+        public void Update(Driver driver)
+        {
+            _context.Drivers.Update(driver);
+        }
+
+        public void Remove(Driver driver)
+        {
+            _context.Drivers.Remove(driver);
+        }
     }
 }

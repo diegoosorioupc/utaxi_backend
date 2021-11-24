@@ -9,5 +9,7 @@ namespace UTaxi.API.Domain.Services
     {
         Task<IEnumerable<Payment>> ListAsync();
         Task<SavePaymentResponse> SaveAsync(Payment payment);
+        Task<SavePaymentResponse> UpdateAsync(int id, Payment payment);
+        Task<PaymentResponse> DeleteAsync(int id);
     }
 }

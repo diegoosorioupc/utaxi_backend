@@ -10,5 +10,7 @@ namespace UTaxi.API.Domain.Services
     {
         Task<IEnumerable<Student>> ListAsync();
         Task<SaveStudentResponse> SaveAsync(Student student);
+        Task<SaveStudentResponse> UpdateAsync(int id,Student student);
+        Task<StudentResponse> DeleteAsync(int id);
     }
 }

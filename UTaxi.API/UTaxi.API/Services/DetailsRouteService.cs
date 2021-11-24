@@ -35,5 +35,47 @@ namespace UTaxi.API.Services
                 return new SaveDetailsRouteResponse($"An error occurred while saving the details: {e.Message}");
             }
         }
+
+        public async Task<SaveDetailsRouteResponse> UpdateAsync(int id, DetailsRoute detailsRoute)
+        {
+            var existingDetailsRoute = await _detailsRouteRepository.FindByIdAsync(id);
+
+            if (existingDetailsRoute == null)
+            {
+                return new SaveDetailsRouteResponse("Details of Route not found");
+            }
+
+            existingDetailsRoute.Id = detailsRoute.Id;
+            try
+            {
+                _detailsRouteRepository.Update(existingDetailsRoute);
+
+                return new SaveDetailsRouteResponse(existingDetailsRoute);
+            }
+            catch (Exception e)
+            {
+                return new SaveDetailsRouteResponse($"An error occurred while updating the details: {e.Message}");
+            }
+        }
+
+        public async Task<DetailsRouteResponse> DeleteAsync(int id)
+        {
+            var existingDetailsRoute = await _detailsRouteRepository.FindByIdAsync(id);
+
+            if (existingDetailsRoute == null)
+            {
+                return new DetailsRouteResponse("Details of Route not found");
+            }
+            try
+            {
+                _detailsRouteRepository.Remove(existingDetailsRoute);
+
+                return new DetailsRouteResponse(existingDetailsRoute);
+            }
+            catch (Exception e)
+            {
+                return new DetailsRouteResponse($"An error occurred while deleting the details: {e.Message}");
+            }
+        }
     }
 }

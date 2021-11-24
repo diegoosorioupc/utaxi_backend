@@ -40,5 +40,27 @@ namespace UTaxi.API.Controllers
             var driverResource = _mapper.Map<Driver, DriverResource>(result.Driver);
             return Ok(driverResource);
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync(int id,[FromBody] SaveDriverResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessage());
+            var driver = _mapper.Map<SaveDriverResource, Driver>(resource);
+            var result = await _driverService.UpdateAsync(id,driver);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var driverResource = _mapper.Map<Driver, DriverResource>(result.Driver);
+            return Ok(driverResource);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            
+            var result = await _driverService.DeleteAsync(id);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var driverResource = _mapper.Map<Driver, DriverResource>(result.Driver);
+            return Ok(driverResource);
+        }
     }
 }

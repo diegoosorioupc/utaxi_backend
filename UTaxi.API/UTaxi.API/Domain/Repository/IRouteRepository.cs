@@ -9,5 +9,8 @@ namespace UTaxi.API.Domain.Repository
     {
         Task<IEnumerable<Route>>ListAsync();
         Task AddAsync(Route route);
+        Task<Route> FindByIdAsync(int id);
+        void Update(Route route);
+        void Remove(Route route);
     }
 }

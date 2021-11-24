@@ -40,5 +40,26 @@ namespace UTaxi.API.Controllers
             var routeResource = _mapper.Map<Route, RouteResource>(result.Route);
             return Ok(routeResource);
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync(int id,[FromBody] SaveRouteResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessage());
+            var route = _mapper.Map<SaveRouteResource, Route>(resource);
+            var result = await _routeService.UpdateAsync(id, route);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var routeResource = _mapper.Map<Route, RouteResource>(result.Route);
+            return Ok(routeResource);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            var result = await _routeService.DeleteAsync(id);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var routeResource = _mapper.Map<Route, RouteResource>(result.Route);
+            return Ok(routeResource);
+        }
     }
 }
