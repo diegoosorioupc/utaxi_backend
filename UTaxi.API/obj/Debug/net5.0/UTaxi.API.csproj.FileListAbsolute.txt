@@ -1,0 +1,107 @@
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\appsettings.Development.json
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\appsettings.json
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.exe
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.deps.json
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.runtimeconfig.json
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.runtimeconfig.dev.json
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\ref\UTaxi.API.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.pdb
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Humanizer.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.AssemblyReference.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.AssemblyInfoInputs.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.AssemblyInfo.cs
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CoreCompileInputs.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.Manifest.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.xml
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\scopedcss\bundle\UTaxi.API.styles.css
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.RazorTargetAssemblyInfo.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\ref\UTaxi.API.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.pdb
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.genruntimeconfig.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\appsettings.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.exe
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.deps.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.runtimeconfig.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.runtimeconfig.dev.json
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\ref\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\UTaxi.API.pdb
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.AssemblyReference.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.AssemblyInfoInputs.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.AssemblyInfo.cs
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CoreCompileInputs.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.Manifest.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\staticwebassets\UTaxi.API.StaticWebAssets.xml
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\scopedcss\bundle\UTaxi.API.styles.css
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.RazorTargetAssemblyInfo.cache
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CopyComplete
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\ref\UTaxi.API.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.pdb
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.genruntimeconfig.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CopyComplete
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Google.Protobuf.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\MySql.Data.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\ZstdNet.dll
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
