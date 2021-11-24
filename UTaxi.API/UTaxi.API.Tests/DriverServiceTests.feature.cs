@@ -123,27 +123,27 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "Name",
                             "LicensedNumber",
                             "Birth",
                             "Phone",
                             "UniversityName",
                             "UniversityCard"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Diaz Montoya Maria Isabel",
                             "25478632",
-                            "December 2nd, 1985",
-                            "987586123",
+                            "22 de Noviembre de 1996",
+                            "958471256",
                             "U de Lima",
                             "U214536874"});
 #line 11
- testRunner.When("a Post Request is sent", ((string)(null)), table1, "When ");
+ testRunner.When("a Post Request is sent", ((string)(null)), table3, "When ");
 #line hidden
 #line 14
   testRunner.Then("A Response with Status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Name",
                             "LicensedNumber",
@@ -151,16 +151,16 @@ this.FeatureBackground();
                             "Phone",
                             "UniversityName",
                             "UniversityCard"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "2",
                             "Diaz Montoya Maria Isabel",
                             "25478632",
-                            "December 2nd, 1985",
-                            "987586123",
+                            "22 de Noviembre de 1996",
+                            "958471256",
                             "U de Lima",
                             "U214536874"});
 #line 15
- testRunner.And("A Driver Resource is included in Response Body", ((string)(null)), table2, "And ");
+ testRunner.And("A Driver Resource is included in Response Body", ((string)(null)), table4, "And ");
 #line hidden
             }
             this.ScenarioCleanup();

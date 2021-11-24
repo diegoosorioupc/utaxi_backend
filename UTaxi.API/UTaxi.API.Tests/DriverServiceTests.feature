@@ -9,9 +9,9 @@ Background:
 @driver-adding
 Scenario: Add Driver
 	When a Post Request is sent
-	| Name                      | LicensedNumber | UniversityName | UniversityCard |
-	| Diaz Montoya Maria Isabel | 25478632      | U de Lima      | U214536874     |
- 	Then A Response with Status 200 is received
+	  | Name                      | LicensedNumber | Birth                   | Phone     | UniversityName | UniversityCard |
+	  | Diaz Montoya Maria Isabel | 25478632       | 22 de Noviembre de 1996 | 958471256 | U de Lima      | U214536874     |
+	Then A Response with Status 200 is received
 	And A Driver Resource is included in Response Body
-	| Id | Name                      | LicensedNumber | UniversityName | UniversityCard |
-	| 2  | Diaz Montoya Maria Isabel | 25478632      | U de Lima      | U214536874     |
+	  | Id | Name                      | LicensedNumber | Birth                   | Phone     | UniversityName | UniversityCard |
+	  | 2  | Diaz Montoya Maria Isabel | 25478632       | 22 de Noviembre de 1996 | 958471256 | U de Lima      | U214536874     |
