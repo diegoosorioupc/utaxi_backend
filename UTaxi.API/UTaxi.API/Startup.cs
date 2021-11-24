@@ -35,7 +35,8 @@ namespace UTaxi.API
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseInMemoryDatabase("utaxi-api-in-memory");
+                //options.UseInMemoryDatabase("utaxi-api-in-memory");
+                options.UseMySQL(Configuration.GetConnectionString("SmartApiMySQL"));
             });
             services.AddSwaggerGen(c =>
             {
