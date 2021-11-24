@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using UTaxi.API.Domain.Models;
 using UTaxi.API.Domain.Services;
+using UTaxi.API.Extensions;
 using UTaxi.API.Resources;
 
 namespace UTaxi.API.Controllers
@@ -26,6 +27,19 @@ namespace UTaxi.API.Controllers
             var details = await _detailsRouteService.ListAsync();
             var resources = _mapper.Map<IEnumerable<DetailsRoute>, IEnumerable<DetailsRouteResource>>(details);
             return resources;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> PostAsync([FromBody] SaveDetailsRouteResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessage());
+            var detailsRoute = _mapper.Map<SaveDetailsRouteResource, DetailsRoute>(resource);
+            var result = await _detailsRouteService.SaveAsync(detailsRoute);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var detailsRouteResource = _mapper.Map<DetailsRoute, DetailsRouteResource>(result.DetailsRoute);
+            return Ok(detailsRouteResource);
         }
     }
 }

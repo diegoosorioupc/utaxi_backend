@@ -7,5 +7,6 @@ namespace UTaxi.API.Domain.Repository
     public interface ITaxiRepository
     {
         Task<IEnumerable<Taxi>>ListAsync();
+        Task AddAsync(Taxi taxi);
     }
 }

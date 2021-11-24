@@ -17,5 +17,10 @@ namespace UTaxi.API.Persistence.Repositories
         {
             return await _context.Routes.ToListAsync();
         }
+
+        public async Task AddAsync(Route route)
+        {
+            await _context.Routes.AddAsync(route);
+        }
     }
 }

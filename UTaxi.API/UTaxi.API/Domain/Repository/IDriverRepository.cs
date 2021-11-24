@@ -7,5 +7,6 @@ namespace UTaxi.API.Domain.Repository
     public interface IDriverRepository
     {
         Task<IEnumerable<Driver>> ListAsync();
+        Task AddAsync(Driver driver);
     }
 }

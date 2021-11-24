@@ -17,5 +17,10 @@ namespace UTaxi.API.Persistence.Repositories
         {
             return await _context.Payments.ToListAsync();
         }
+
+        public async Task AddAsync(Payment payment)
+        {
+            await _context.Payments.AddAsync(payment);
+        }
     }
 }

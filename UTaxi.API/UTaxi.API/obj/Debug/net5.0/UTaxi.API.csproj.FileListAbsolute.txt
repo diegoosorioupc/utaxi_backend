@@ -77,3 +77,4 @@ C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.d
 C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\ref\UTaxi.API.dll
 C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.pdb
 C:\Users\Gerardo Caldas\Desktop\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.genruntimeconfig.cache
+D:\GitHub\AplicacionesWeb\utaxi_backend\UTaxi.API\UTaxi.API\obj\Debug\net5.0\UTaxi.API.csproj.CopyComplete

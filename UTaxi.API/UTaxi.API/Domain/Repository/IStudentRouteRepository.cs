@@ -7,5 +7,6 @@ namespace UTaxi.API.Domain.Repository
     public interface IStudentRouteRepository
     {
         Task<IEnumerable<StudentRoute>>ListAsync();
+        Task AddAsync(StudentRoute studentRoute);
     }
 }

@@ -17,5 +17,10 @@ namespace UTaxi.API.Persistence.Repositories
         {
             return await _context.Drivers.ToListAsync();
         }
+
+        public async Task AddAsync(Driver driver)
+        {
+            await _context.Drivers.AddAsync(driver);
+        }
     }
 }

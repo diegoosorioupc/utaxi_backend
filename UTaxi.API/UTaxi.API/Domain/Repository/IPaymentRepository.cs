@@ -7,5 +7,6 @@ namespace UTaxi.API.Domain.Repository
     public interface IPaymentRepository
     {
         Task<IEnumerable<Payment>>ListAsync();
+        Task AddAsync(Payment payment);
     }
 }

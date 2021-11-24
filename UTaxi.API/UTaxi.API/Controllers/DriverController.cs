@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using UTaxi.API.Domain.Models;
 using UTaxi.API.Domain.Services;
+using UTaxi.API.Extensions;
 using UTaxi.API.Resources;
 
 namespace UTaxi.API.Controllers
@@ -26,6 +27,18 @@ namespace UTaxi.API.Controllers
             var drivers = await _driverService.ListAsync();
             var resources = _mapper.Map<IEnumerable<Driver>, IEnumerable<DriverResource>>(drivers);
             return resources;
+        }
+        [HttpPost]
+        public async Task<IActionResult> PostAsync([FromBody] SaveDriverResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessage());
+            var driver = _mapper.Map<SaveDriverResource, Driver>(resource);
+            var result = await _driverService.SaveAsync(driver);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            var driverResource = _mapper.Map<Driver, DriverResource>(result.Driver);
+            return Ok(driverResource);
         }
     }
 }
